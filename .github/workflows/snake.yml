@@ -1,9 +1,12 @@
 name: Generate Snake
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 19 * * *"
-  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -12,7 +15,7 @@ jobs:
       - name: Generate Snake
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: poolanithinreddy
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
 
