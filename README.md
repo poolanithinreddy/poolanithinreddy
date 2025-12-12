@@ -77,9 +77,8 @@ Streaming audio → live feedback, scoring, transcripts, and analytics; accessib
 
 ---
 
-## 🌀 3D + Animations (the “wow” section)
+## 🌀 3D + Animations
 ### 🌌 3D Contribution Graph
-> After you enable the workflow below, this will render as a **3D-looking** SVG:
 <p align="center">
   <img src="./profile-3d-contrib/profile-night-view.svg" alt="3D Contributions" />
 </p>
