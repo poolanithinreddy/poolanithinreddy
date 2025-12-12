@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.55" stop-color="#070a12"/>
+      <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+
+    <radialGradient id="orb" cx="42%" cy="40%" r="60%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.12" stop-color="#bfe3ff" stop-opacity="0.95"/>
+      <stop offset="0.35" stop-color="#60a5fa" stop-opacity="0.85"/>
+      <stop offset="0.65" stop-color="#1d4ed8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glow" cx="52%" cy="50%" r="70%">
+      <stop offset="0" stop-color="#60a5fa" stop-opacity="0.35"/>
+      <stop offset="0.6" stop-color="#60a5fa" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.88"/>
+    </linearGradient>
+
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60a5fa" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#60a5fa" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1400" height="520" rx="28" fill="url(#bg)"/>
+
+  <!-- soft glow -->
+  <ellipse cx="760" cy="290" rx="540" ry="240" fill="url(#glow)" filter="url(#blur)"/>
+
+  <!-- subtle grid -->
+  <g opacity="0.08">
+    <path d="M0 340 C 350 290, 760 290, 1400 220" stroke="#94a3b8" stroke-width="1" fill="none"/>
+    <path d="M0 380 C 350 320, 760 320, 1400 250" stroke="#94a3b8" stroke-width="1" fill="none"/>
+    <path d="M0 420 C 350 350, 760 350, 1400 280" stroke="#94a3b8" stroke-width="1" fill="none"/>
+    <path d="M220 0 L220 520" stroke="#94a3b8" stroke-width="1"/>
+    <path d="M460 0 L460 520" stroke="#94a3b8" stroke-width="1"/>
+    <path d="M700 0 L700 520" stroke="#94a3b8" stroke-width="1"/>
+    <path d="M940 0 L940 520" stroke="#94a3b8" stroke-width="1"/>
+    <path d="M1180 0 L1180 520" stroke="#94a3b8" stroke-width="1"/>
+  </g>
+
+  <!-- particles -->
+  <g opacity="0.75">
+    <circle cx="220" cy="120" r="2.2" fill="#e2e8f0"/>
+    <circle cx="310" cy="90" r="1.5" fill="#93c5fd"/>
+    <circle cx="1040" cy="110" r="2.0" fill="#e2e8f0"/>
+    <circle cx="1120" cy="160" r="1.6" fill="#93c5fd"/>
+    <circle cx="980" cy="70" r="1.2" fill="#e2e8f0"/>
+    <circle cx="540" cy="130" r="1.4" fill="#93c5fd"/>
+    <circle cx="1260" cy="90" r="1.8" fill="#e2e8f0"/>
+  </g>
+
+  <!-- main orb -->
+  <g filter="url(#shadow)">
+    <circle cx="930" cy="260" r="170" fill="url(#orb)"/>
+    <circle cx="930" cy="260" r="172" fill="none" stroke="#60a5fa" stroke-opacity="0.35"/>
+  </g>
+
+  <!-- glass card -->
+  <g filter="url(#shadow)">
+    <rect x="90" y="130" width="760" height="260" rx="22" fill="url(#card)" stroke="#1f2937" stroke-opacity="0.7"/>
+    <rect x="110" y="150" width="720" height="220" rx="18" fill="none" stroke="#60a5fa" stroke-opacity="0.22"/>
+  </g>
+
+  <!-- accent line -->
+  <rect x="120" y="190" width="700" height="2" fill="url(#line)"/>
+
+  <!-- text -->
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" fill="#ffffff">
+    <text x="140" y="235" font-size="46" font-weight="800" letter-spacing="-0.5">Nithin Reddy Poola</text>
+    <text x="140" y="275" font-size="18" fill="#cbd5e1">Systems • Security • Automation • AI</text>
+    <text x="140" y="320" font-size="16" fill="#94a3b8">
+      Production-grade platforms with design-level polish.
+    </text>
+  </g>
+
+  <!-- NR monogram on orb -->
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" text-anchor="middle">
+    <text x="930" y="275" font-size="56" font-weight="900" fill="#ffffff" opacity="0.92">NR</text>
+    <text x="930" y="305" font-size="14" font-weight="600" fill="#cbd5e1" opacity="0.9">ENGINEER</text>
+  </g>
+</svg>
