@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://nithinreddy.com/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-nithinreddy.com-0b0f1a?style=for-the-badge&labelColor=0b0f1a&color=2563eb"></a>
   <a href="https://www.linkedin.com/in/nithinreddypoola"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0b0f1a?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0b0f1a&color=2563eb"></a>
-  <a href="mailto:nithinreddypoola@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Reach%20out-0b0f1a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0b0f1a&color=2563eb"></a>
+  <a href="mailto:nithinpoolareddy@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Reach%20out-0b0f1a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0b0f1a&color=2563eb"></a>
   <a href="https://nithinreddy.com/Resume.pdf"><img alt="Resume" src="https://img.shields.io/badge/Résumé-Download-0b0f1a?style=for-the-badge&labelColor=0b0f1a&color=2563eb"></a>
   <a href="https://nithinreddy.com/work"><img alt="Projects" src="https://img.shields.io/badge/Projects-Case%20Studies-0b0f1a?style=for-the-badge&labelColor=0b0f1a&color=2563eb"></a>
 </p>
@@ -33,7 +33,7 @@ focus:      [ AI coding agents, platform engineering, infra automation ]
 strengths:  [ distributed systems, secure auth (SAML/OIDC/RBAC), real-time AI ]
 philosophy: "design for failure · automate the boring · instrument everything"
 based_in:   "Baltimore, MD · UMBC"
-status:     "Open to 2026 SWE / Platform / AI-Eng roles & collaboration"
+now:        "shipping ApeironCode — an autonomous, review-ready coding agent"
 ```
 
 <br/>
@@ -233,7 +233,7 @@ I'm always open to working on **AI tools, infrastructure platforms, full-stack p
   <a href="https://nithinreddy.com/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-nithinreddy.com-0b0f1a?style=for-the-badge&labelColor=0b0f1a&color=2563eb"></a>
   <a href="https://www.linkedin.com/in/nithinreddypoola"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0b0f1a?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0b0f1a&color=2563eb"></a>
   <a href="https://nithinreddy.com/Resume.pdf"><img alt="Resume" src="https://img.shields.io/badge/Résumé-Download-0b0f1a?style=for-the-badge&labelColor=0b0f1a&color=2563eb"></a>
-  <a href="mailto:nithinreddypoola@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Reach%20out-0b0f1a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0b0f1a&color=2563eb"></a>
+  <a href="mailto:nithinpoolareddy@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Reach%20out-0b0f1a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0b0f1a&color=2563eb"></a>
 </p>
 
 <p align="center"><sub>Designed for a 30-second skim and a 3-minute deep read. · © Nithin Reddy Poola</sub></p>

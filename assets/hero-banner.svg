@@ -1,120 +1,160 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="Nithin Reddy Poola — Systems, AI, Full-Stack, Infrastructure">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" fill="none" role="img" aria-label="Nithin Reddy Poola — live systems control plane: Client to NGINX to API to Queue to vCenter to GPU/VM">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#05070d"/>
-      <stop offset="0.5" stop-color="#070a14"/>
+      <stop offset="0" stop-color="#05080f"/>
+      <stop offset="0.5" stop-color="#070b15"/>
       <stop offset="1" stop-color="#020308"/>
     </linearGradient>
-
-    <radialGradient id="orb" cx="40%" cy="38%" r="62%">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.96"/>
-      <stop offset="0.14" stop-color="#cfe6ff" stop-opacity="0.95"/>
-      <stop offset="0.38" stop-color="#5aa2fa" stop-opacity="0.88"/>
-      <stop offset="0.7" stop-color="#1d4ed8" stop-opacity="0.5"/>
-      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    <radialGradient id="aura" cx="50%" cy="74%" r="65%">
+      <stop offset="0" stop-color="#1d4ed8" stop-opacity="0.22"/>
+      <stop offset="0.6" stop-color="#1d4ed8" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#1d4ed8" stop-opacity="0"/>
     </radialGradient>
-
-    <radialGradient id="glow" cx="50%" cy="50%" r="70%">
-      <stop offset="0" stop-color="#3b82f6" stop-opacity="0.30"/>
-      <stop offset="0.6" stop-color="#3b82f6" stop-opacity="0.06"/>
-      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
-    </radialGradient>
-
+    <linearGradient id="wire" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1e3a5f"/>
+      <stop offset="1" stop-color="#2b5b8f"/>
+    </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#60a5fa" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#60a5fa" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#60a5fa" stop-opacity="0.95"/>
       <stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
     </linearGradient>
-
-    <linearGradient id="chip" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#121a2e" stop-opacity="0.95"/>
-      <stop offset="1" stop-color="#0a0f1c" stop-opacity="0.95"/>
+    <linearGradient id="node" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101a2e"/>
+      <stop offset="1" stop-color="#0a1120"/>
     </linearGradient>
-
-    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="22"/>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3"/>
     </filter>
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.55"/>
+    <filter id="bigblur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="26"/>
     </filter>
+    <style>
+      .name  { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial; }
+      .mono  { font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace; }
+    </style>
   </defs>
 
-  <!-- background -->
-  <rect width="1280" height="420" rx="24" fill="url(#bg)"/>
-  <ellipse cx="900" cy="200" rx="520" ry="240" fill="url(#glow)" filter="url(#blur)"/>
+  <!-- backdrop -->
+  <rect width="1280" height="440" rx="24" fill="url(#bg)"/>
+  <ellipse cx="640" cy="330" rx="620" ry="240" fill="url(#aura)" filter="url(#bigblur)"/>
 
-  <!-- subtle grid -->
-  <g opacity="0.06" stroke="#94a3b8" stroke-width="1">
-    <path d="M0 300 C 320 250, 760 250, 1280 190" fill="none"/>
-    <path d="M0 340 C 320 285, 760 285, 1280 225" fill="none"/>
-    <path d="M0 380 C 320 320, 760 320, 1280 260" fill="none"/>
-    <path d="M260 0 L260 420"/><path d="M520 0 L520 420"/>
-    <path d="M780 0 L780 420"/><path d="M1040 0 L1040 420"/>
+  <!-- faint grid -->
+  <g opacity="0.05" stroke="#94a3b8" stroke-width="1">
+    <path d="M0 90 H1280 M0 150 H1280 M0 380 H1280"/>
+    <path d="M160 0 V440 M420 0 V440 M680 0 V440 M940 0 V440 M1140 0 V440"/>
   </g>
-
   <!-- starfield -->
-  <g opacity="0.8">
-    <circle cx="220" cy="70" r="1.8" fill="#e2e8f0"/>
-    <circle cx="330" cy="48" r="1.2" fill="#93c5fd"/>
-    <circle cx="1080" cy="80" r="1.8" fill="#e2e8f0"/>
-    <circle cx="1170" cy="130" r="1.4" fill="#93c5fd"/>
-    <circle cx="1010" cy="44" r="1.1" fill="#e2e8f0"/>
-    <circle cx="600" cy="60" r="1.2" fill="#93c5fd"/>
-    <circle cx="150" cy="150" r="1.3" fill="#e2e8f0"/>
+  <g fill="#cbd5e1" opacity="0.55">
+    <circle cx="1150" cy="60" r="1.4"/><circle cx="1060" cy="40" r="1"/>
+    <circle cx="240" cy="55" r="1.2"/><circle cx="60" cy="120" r="1"/>
+    <circle cx="1220" cy="120" r="1.1"/><circle cx="900" cy="46" r="0.9"/>
   </g>
 
-  <!-- orb + monogram -->
-  <g filter="url(#shadow)">
-    <circle cx="1010" cy="210" r="138" fill="url(#orb)"/>
-    <circle cx="1010" cy="210" r="140" fill="none" stroke="#60a5fa" stroke-opacity="0.35"/>
+  <!-- ===== IDENTITY ===== -->
+  <g class="name" fill="#ffffff">
+    <text x="60" y="104" font-size="56" font-weight="800" letter-spacing="-1.6">Nithin Reddy Poola</text>
   </g>
-  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" text-anchor="middle">
-    <text x="1010" y="222" font-size="50" font-weight="900" fill="#ffffff" opacity="0.95" letter-spacing="2">NR</text>
-    <text x="1010" y="252" font-size="12" font-weight="700" fill="#dbeafe" opacity="0.9" letter-spacing="4">ENGINEER</text>
-  </g>
+  <text x="62" y="142" class="name" font-size="19" font-weight="600" fill="#7fa9e6" letter-spacing="0.4">Systems &#183; AI &#183; Full-Stack &#183; Infrastructure Automation</text>
+  <rect x="62" y="160" width="520" height="2" fill="url(#accent)"/>
+  <text x="62" y="190" class="mono" font-size="13" fill="#5f708c">design for failure &#183; automate the boring &#183; instrument everything</text>
 
-  <!-- status pill -->
-  <g transform="translate(80,70)">
-    <rect width="270" height="34" rx="17" fill="url(#chip)" stroke="#1e293b"/>
-    <circle cx="24" cy="17" r="5" fill="#22c55e">
-      <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <text x="42" y="22" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto" font-size="13" font-weight="600" fill="#cbd5e1" letter-spacing="0.5">Open to 2026 roles &amp; collaboration</text>
-  </g>
+  <!-- section label -->
+  <text x="62" y="244" class="mono" font-size="12" fill="#3f5573" letter-spacing="1">// live request path &#8212; provisioning a lab environment</text>
 
-  <!-- name + roles -->
-  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" fill="#ffffff">
-    <text x="80" y="178" font-size="58" font-weight="800" letter-spacing="-1.5">Nithin Reddy Poola</text>
-    <text x="82" y="216" font-size="19" font-weight="600" fill="#9db4d4" letter-spacing="0.3">Systems &#183; AI &#183; Full-Stack &#183; Infrastructure Automation</text>
+  <!-- ===== PIPELINE WIRES ===== -->
+  <g stroke="url(#wire)" stroke-width="2">
+    <line x1="220" y1="300" x2="262" y2="300"/>
+    <line x1="412" y1="300" x2="454" y2="300"/>
+    <line x1="604" y1="300" x2="646" y2="300"/>
+    <line x1="796" y1="300" x2="838" y2="300"/>
+    <line x1="988" y1="300" x2="1030" y2="300"/>
   </g>
 
-  <!-- accent divider -->
-  <rect x="82" y="240" width="560" height="2" fill="url(#accent)"/>
+  <!-- flowing packets (glow) -->
+  <g fill="#7dd3fc" filter="url(#soft)">
+    <!-- one packet per hop, staggered so the pulse travels the whole chain -->
+    <circle r="3.4" cy="300" cx="220"><animate attributeName="cx" values="220;262" dur="1.4s" begin="0s"    repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="1.4s" begin="0s"    repeatCount="indefinite"/></circle>
+    <circle r="3.4" cy="300" cx="412"><animate attributeName="cx" values="412;454" dur="1.4s" begin="0.28s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="1.4s" begin="0.28s" repeatCount="indefinite"/></circle>
+    <circle r="3.4" cy="300" cx="604"><animate attributeName="cx" values="604;646" dur="1.4s" begin="0.56s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="1.4s" begin="0.56s" repeatCount="indefinite"/></circle>
+    <circle r="3.4" cy="300" cx="796"><animate attributeName="cx" values="796;838" dur="1.4s" begin="0.84s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="1.4s" begin="0.84s" repeatCount="indefinite"/></circle>
+    <circle r="3.4" cy="300" cx="988"><animate attributeName="cx" values="988;1030" dur="1.4s" begin="1.12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="1.4s" begin="1.12s" repeatCount="indefinite"/></circle>
+  </g>
 
-  <!-- tagline -->
-  <text x="82" y="278" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto" font-size="15" fill="#7d8aa3">I design for failure, build for scale, and instrument everything.</text>
+  <!-- ===== NODES =====
+       reusable look: rounded card + label + status LED that flares as the packet passes -->
+  <!-- node 1: CLIENT (70) -->
+  <g class="mono">
+    <rect x="70"  y="276" width="150" height="48" rx="11" fill="url(#node)" stroke="#21314e"/>
+    <rect x="70"  y="276" width="150" height="48" rx="11" fill="none" stroke="#60a5fa"><animate attributeName="stroke-opacity" values="0;0.9;0" dur="1.96s" begin="0s" repeatCount="indefinite"/></rect>
+    <circle cx="88" cy="294" r="3.5" fill="#22c55e"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.96s" begin="0s" repeatCount="indefinite"/></circle>
+    <text x="106" y="299" font-size="13" font-weight="600" fill="#dbe7fb">CLIENT</text>
+    <text x="84"  y="314" font-size="9.5" fill="#5f708c">request</text>
+  </g>
+  <!-- node 2: NGINX (262) -->
+  <g class="mono">
+    <rect x="262" y="276" width="150" height="48" rx="11" fill="url(#node)" stroke="#21314e"/>
+    <rect x="262" y="276" width="150" height="48" rx="11" fill="none" stroke="#60a5fa"><animate attributeName="stroke-opacity" values="0;0.9;0" dur="1.96s" begin="0.28s" repeatCount="indefinite"/></rect>
+    <circle cx="280" cy="294" r="3.5" fill="#22c55e"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.96s" begin="0.28s" repeatCount="indefinite"/></circle>
+    <text x="298" y="299" font-size="13" font-weight="600" fill="#dbe7fb">NGINX</text>
+    <text x="276" y="314" font-size="9.5" fill="#5f708c">TLS &#183; edge</text>
+  </g>
+  <!-- node 3: API (454) -->
+  <g class="mono">
+    <rect x="454" y="276" width="150" height="48" rx="11" fill="url(#node)" stroke="#21314e"/>
+    <rect x="454" y="276" width="150" height="48" rx="11" fill="none" stroke="#60a5fa"><animate attributeName="stroke-opacity" values="0;0.9;0" dur="1.96s" begin="0.56s" repeatCount="indefinite"/></rect>
+    <circle cx="472" cy="294" r="3.5" fill="#22c55e"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.96s" begin="0.56s" repeatCount="indefinite"/></circle>
+    <text x="490" y="299" font-size="13" font-weight="600" fill="#dbe7fb">API</text>
+    <text x="468" y="314" font-size="9.5" fill="#5f708c">SSO &#183; RBAC</text>
+  </g>
+  <!-- node 4: QUEUE (646) -->
+  <g class="mono">
+    <rect x="646" y="276" width="150" height="48" rx="11" fill="url(#node)" stroke="#21314e"/>
+    <rect x="646" y="276" width="150" height="48" rx="11" fill="none" stroke="#60a5fa"><animate attributeName="stroke-opacity" values="0;0.9;0" dur="1.96s" begin="0.84s" repeatCount="indefinite"/></rect>
+    <circle cx="664" cy="294" r="3.5" fill="#22c55e"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.96s" begin="0.84s" repeatCount="indefinite"/></circle>
+    <text x="682" y="299" font-size="13" font-weight="600" fill="#dbe7fb">QUEUE</text>
+    <text x="660" y="314" font-size="9.5" fill="#5f708c">idempotent</text>
+  </g>
+  <!-- node 5: vCENTER (838) -->
+  <g class="mono">
+    <rect x="838" y="276" width="150" height="48" rx="11" fill="url(#node)" stroke="#21314e"/>
+    <rect x="838" y="276" width="150" height="48" rx="11" fill="none" stroke="#60a5fa"><animate attributeName="stroke-opacity" values="0;0.9;0" dur="1.96s" begin="1.12s" repeatCount="indefinite"/></rect>
+    <circle cx="856" cy="294" r="3.5" fill="#22c55e"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.96s" begin="1.12s" repeatCount="indefinite"/></circle>
+    <text x="874" y="299" font-size="13" font-weight="600" fill="#dbe7fb">vCENTER</text>
+    <text x="852" y="314" font-size="9.5" fill="#5f708c">automation</text>
+  </g>
+  <!-- node 6: GPU/VM (1030) -->
+  <g class="mono">
+    <rect x="1030" y="276" width="150" height="48" rx="11" fill="url(#node)" stroke="#21314e"/>
+    <rect x="1030" y="276" width="150" height="48" rx="11" fill="none" stroke="#60a5fa"><animate attributeName="stroke-opacity" values="0;0.9;0" dur="1.96s" begin="1.4s" repeatCount="indefinite"/></rect>
+    <circle cx="1048" cy="294" r="3.5" fill="#34d399"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.96s" begin="1.4s" repeatCount="indefinite"/></circle>
+    <text x="1066" y="299" font-size="13" font-weight="600" fill="#dbe7fb">GPU &#183; VM</text>
+    <text x="1044" y="314" font-size="9.5" fill="#5f708c">provisioned</text>
+  </g>
 
-  <!-- tech chips -->
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#9db4d4">
-    <g transform="translate(80,308)">
-      <rect width="118" height="30" rx="8" fill="url(#chip)" stroke="#1e293b"/>
-      <text x="59" y="20" text-anchor="middle">Next.js + TS</text>
+  <!-- ===== LIVE METRIC TICKER ===== -->
+  <g class="mono" font-size="12">
+    <g transform="translate(62,372)">
+      <circle cx="6" cy="-4" r="4" fill="#22c55e"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
+      <text x="20" y="0" fill="#6b7d99">p99 latency</text>
+      <text x="120" y="0" fill="#9ec1f0" font-weight="600">142&#8202;ms</text>
     </g>
-    <g transform="translate(208,308)">
-      <rect width="100" height="30" rx="8" fill="url(#chip)" stroke="#1e293b"/>
-      <text x="50" y="20" text-anchor="middle">Python</text>
+    <g transform="translate(300,372)">
+      <text x="0" y="0" fill="#6b7d99">uptime</text>
+      <text x="74" y="0" fill="#9ec1f0" font-weight="600">99.9%</text>
     </g>
-    <g transform="translate(318,308)">
-      <rect width="128" height="30" rx="8" fill="url(#chip)" stroke="#1e293b"/>
-      <text x="64" y="20" text-anchor="middle">Docker / NGINX</text>
+    <g transform="translate(470,372)">
+      <text x="0" y="0" fill="#6b7d99">provision</text>
+      <text x="92" y="0" fill="#9ec1f0" font-weight="600">~30m &#8594; &lt;5m</text>
     </g>
-    <g transform="translate(456,308)">
-      <rect width="92" height="30" rx="8" fill="url(#chip)" stroke="#1e293b"/>
-      <text x="46" y="20" text-anchor="middle">vCenter</text>
+    <g transform="translate(700,372)">
+      <text x="0" y="0" fill="#6b7d99">throughput</text>
+      <text x="100" y="0" fill="#9ec1f0" font-weight="600">1,000+ rps</text>
     </g>
-    <g transform="translate(558,308)">
-      <rect width="120" height="30" rx="8" fill="url(#chip)" stroke="#1e293b"/>
-      <text x="60" y="20" text-anchor="middle">AI Agents</text>
+    <g transform="translate(940,372)">
+      <text x="0" y="0" fill="#6b7d99">building</text>
+      <text x="80" y="0" fill="#9ec1f0" font-weight="600">ApeironCode</text>
+      <circle cx="208" cy="-4" r="3" fill="#60a5fa"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.3s" repeatCount="indefinite"/></circle>
     </g>
   </g>
 </svg>
