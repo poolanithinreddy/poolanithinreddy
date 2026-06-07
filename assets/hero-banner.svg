@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="Nithin Reddy Poola — Systems, AI, Full-Stack, Infrastructure">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070d"/>
+      <stop offset="0.5" stop-color="#070a14"/>
+      <stop offset="1" stop-color="#020308"/>
+    </linearGradient>
+
+    <radialGradient id="orb" cx="40%" cy="38%" r="62%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.96"/>
+      <stop offset="0.14" stop-color="#cfe6ff" stop-opacity="0.95"/>
+      <stop offset="0.38" stop-color="#5aa2fa" stop-opacity="0.88"/>
+      <stop offset="0.7" stop-color="#1d4ed8" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glow" cx="50%" cy="50%" r="70%">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0.30"/>
+      <stop offset="0.6" stop-color="#3b82f6" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60a5fa" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#60a5fa" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="chip" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#121a2e" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#0a0f1c" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="1280" height="420" rx="24" fill="url(#bg)"/>
+  <ellipse cx="900" cy="200" rx="520" ry="240" fill="url(#glow)" filter="url(#blur)"/>
+
+  <!-- subtle grid -->
+  <g opacity="0.06" stroke="#94a3b8" stroke-width="1">
+    <path d="M0 300 C 320 250, 760 250, 1280 190" fill="none"/>
+    <path d="M0 340 C 320 285, 760 285, 1280 225" fill="none"/>
+    <path d="M0 380 C 320 320, 760 320, 1280 260" fill="none"/>
+    <path d="M260 0 L260 420"/><path d="M520 0 L520 420"/>
+    <path d="M780 0 L780 420"/><path d="M1040 0 L1040 420"/>
+  </g>
+
+  <!-- starfield -->
+  <g opacity="0.8">
+    <circle cx="220" cy="70" r="1.8" fill="#e2e8f0"/>
+    <circle cx="330" cy="48" r="1.2" fill="#93c5fd"/>
+    <circle cx="1080" cy="80" r="1.8" fill="#e2e8f0"/>
+    <circle cx="1170" cy="130" r="1.4" fill="#93c5fd"/>
+    <circle cx="1010" cy="44" r="1.1" fill="#e2e8f0"/>
+    <circle cx="600" cy="60" r="1.2" fill="#93c5fd"/>
+    <circle cx="150" cy="150" r="1.3" fill="#e2e8f0"/>
+  </g>
+
+  <!-- orb + monogram -->
+  <g filter="url(#shadow)">
+    <circle cx="1010" cy="210" r="138" fill="url(#orb)"/>
+    <circle cx="1010" cy="210" r="140" fill="none" stroke="#60a5fa" stroke-opacity="0.35"/>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" text-anchor="middle">
+    <text x="1010" y="222" font-size="50" font-weight="900" fill="#ffffff" opacity="0.95" letter-spacing="2">NR</text>
+    <text x="1010" y="252" font-size="12" font-weight="700" fill="#dbeafe" opacity="0.9" letter-spacing="4">ENGINEER</text>
+  </g>
+
+  <!-- status pill -->
+  <g transform="translate(80,70)">
+    <rect width="270" height="34" rx="17" fill="url(#chip)" stroke="#1e293b"/>
+    <circle cx="24" cy="17" r="5" fill="#22c55e">
+      <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="42" y="22" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto" font-size="13" font-weight="600" fill="#cbd5e1" letter-spacing="0.5">Open to 2026 roles &amp; collaboration</text>
+  </g>
+
+  <!-- name + roles -->
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" fill="#ffffff">
+    <text x="80" y="178" font-size="58" font-weight="800" letter-spacing="-1.5">Nithin Reddy Poola</text>
+    <text x="82" y="216" font-size="19" font-weight="600" fill="#9db4d4" letter-spacing="0.3">Systems &#183; AI &#183; Full-Stack &#183; Infrastructure Automation</text>
+  </g>
+
+  <!-- accent divider -->
+  <rect x="82" y="240" width="560" height="2" fill="url(#accent)"/>
+
+  <!-- tagline -->
+  <text x="82" y="278" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto" font-size="15" fill="#7d8aa3">I design for failure, build for scale, and instrument everything.</text>
+
+  <!-- tech chips -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#9db4d4">
+    <g transform="translate(80,308)">
+      <rect width="118" height="30" rx="8" fill="url(#chip)" stroke="#1e293b"/>
+      <text x="59" y="20" text-anchor="middle">Next.js + TS</text>
+    </g>
+    <g transform="translate(208,308)">
+      <rect width="100" height="30" rx="8" fill="url(#chip)" stroke="#1e293b"/>
+      <text x="50" y="20" text-anchor="middle">Python</text>
+    </g>
+    <g transform="translate(318,308)">
+      <rect width="128" height="30" rx="8" fill="url(#chip)" stroke="#1e293b"/>
+      <text x="64" y="20" text-anchor="middle">Docker / NGINX</text>
+    </g>
+    <g transform="translate(456,308)">
+      <rect width="92" height="30" rx="8" fill="url(#chip)" stroke="#1e293b"/>
+      <text x="46" y="20" text-anchor="middle">vCenter</text>
+    </g>
+    <g transform="translate(558,308)">
+      <rect width="120" height="30" rx="8" fill="url(#chip)" stroke="#1e293b"/>
+      <text x="60" y="20" text-anchor="middle">AI Agents</text>
+    </g>
+  </g>
+</svg>
