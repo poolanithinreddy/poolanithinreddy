@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://nithinreddy.com/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-nithinreddy.com-0b0f1a?style=for-the-badge&labelColor=0b0f1a&color=2563eb"></a>
+  <a href="https://nithinreddy.com/portifolio/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-nithinreddy.com-0b0f1a?style=for-the-badge&labelColor=0b0f1a&color=2563eb"></a>
   <a href="https://www.linkedin.com/in/nithinreddypoola"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0b0f1a?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0b0f1a&color=2563eb"></a>
   <a href="mailto:nithinpoolareddy@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Reach%20out-0b0f1a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0b0f1a&color=2563eb"></a>
   <a href="https://nithinreddy.com/Resume.pdf"><img alt="Resume" src="https://img.shields.io/badge/Résumé-Download-0b0f1a?style=for-the-badge&labelColor=0b0f1a&color=2563eb"></a>
